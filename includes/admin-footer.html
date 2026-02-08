@@ -1,0 +1,43 @@
+    <div class="footer_section layout_padding">
+        <div class="container">
+            <div class="location_main">
+                <?php
+				
+                    // Include database connection
+                    // Fetch contact data from the database
+                    $query = "SELECT * FROM club_contact WHERE contact_id = 1";
+                    $result = mysqli_query($dbc, $query);
+
+                    // Check if query was successful
+                    if ($result && mysqli_num_rows($result) > 0) {
+                        $contact_data = mysqli_fetch_assoc($result);
+                        echo '<div class="call_text"><img src="../images/call-icon.png" alt="call"></div>';
+                        echo '<div class="call_text"><a href="#">Call ' . $contact_data['phone'] . '</a></div>';
+                        echo '<div class="call_text"><img src="../images/mail-icon.png" alt="mail"></div>';
+                        echo '<div class="call_text"><a href="#">' . $contact_data['email'] . '</a></div>';
+						echo '<div><a href="edit-contact.php?id=' . $contact_data['contact_id'] . '"  class="edit-contact-btn">Edit Contact</a></div>';
+                    } else {
+                        echo '<div class="call_text"><img src="../images/call-icon.png" alt="call"></div>';
+                        echo '<div class="call_text"><a href="#">Call +01 1234567890</a></div>';
+                        echo '<div class="call_text"><img src="../images/mail-icon.png" alt="mail"></div>';
+                        echo '<div class="call_text"><a href="#">demo@gmail.com</a></div>';
+						echo '<div><a href="edit-contact.php?id=' . $contact_data['contact_id'] . '"  class="edit-contact-btn">Edit Contact</a></div>';
+                    }
+
+                    // Close database connection
+                    mysqli_close($dbc);
+                ?>
+            </div>
+            <div class="social_icon">
+                <ul>
+                    <li><a href="https://www.facebook.com/uniklmiitrecretionalclub/"><img src="../images/fb-icon.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/krumofficial_/"><img src="../images/instagram-icon.png" alt="instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text"></p>
+         </div>
+    </div>

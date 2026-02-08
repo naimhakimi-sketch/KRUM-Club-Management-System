@@ -1,0 +1,41 @@
+# Database files
+*.sql
+krum_database*.sql
+
+# PHP configuration
+mysqli_connect_krum.php
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules (if any)
+node_modules/
+
+# Compiled files
+*.class
+*.pyc
+
+# Cache files
+__pycache__/
+.cache/
