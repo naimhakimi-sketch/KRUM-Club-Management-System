@@ -86,6 +86,7 @@ Whether you're a club officer managing member information or a member checking l
 
 ---
 
+<!--
 ## 🚀 Installation
 
 ### Prerequisites
@@ -145,6 +146,7 @@ git clone https://github.com/yourusername/KRUM.git
 - **Admin Login:** Use committee/admin credentials from the database
 
 ---
+-->
 
 ## 📁 Project Structure
 
@@ -375,12 +377,6 @@ VALUES ('admin@krum.com', SHA1('password123'), 'Admin Name', 'Administrator');
 
 ---
 
-## 📄 License
-
-This project is open source and available for educational and personal use. Modify and distribute as needed.
-
----
-
 ## 👨‍💻 Contributing
 
 Contributions are welcome! Feel free to:
@@ -389,15 +385,6 @@ Contributions are welcome! Feel free to:
 - Create feature branches
 - Submit pull requests
 - Report bugs and suggest improvements
-
----
-
-## 📞 Contact & Support
-
-For questions or support regarding KRUM Recreation Club, please reach out through:
-
-- **Email:** krum@miit.edu (example)
-- **GitHub Issues:** Create an issue for bug reports and feature requests
 
 ---
 
