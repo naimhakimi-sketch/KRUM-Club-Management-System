@@ -8,7 +8,6 @@
 
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-10.4+-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![jQuery](https://img.shields.io/badge/jQuery-3.x-0769AD?logo=jquery&logoColor=white)](https://jquery.com/)
 [![Apache](https://img.shields.io/badge/Apache-2.4-D5001C?logo=apache&logoColor=white)](https://httpd.apache.org/)
 
 [Features](#features) • [Installation](#installation) • [Project Structure](#project-structure) • [Tech Stack](#tech-stack) • [Screenshots](#screenshots)
@@ -78,7 +77,7 @@ Whether you're a club officer managing member information or a member checking l
 ### Key Technologies
 
 - **Backend:** PHP with MySQLi database connectivity
-- **Frontend:** HTML5, CSS3, JavaScript
+- **Frontend:** HTML5, CSS3
 - **Server:** XAMPP (Apache + MySQL)
 - **Additional:** Font Awesome icons, Fancy Box galleries, AJAX, jQuery Validation
 
