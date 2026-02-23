@@ -119,21 +119,13 @@ Krum2/
 │   └── admin-footer.html    # Admin footer
 │
 ├── css/                      # Stylesheets
-│   ├── bootstrap.min.css
 │   ├── style.css
 │   ├── responsive.css
 │   └── ...other CSS files
 │
-├── js/                       # JavaScript files
-│   ├── jquery.min.js
-│   ├── bootstrap.bundle.min.js
-│   ├── custom.js
-│   └── ...other JS files
-│
 ├── images/                   # Project images and icons
 ├── fonts/                    # Custom fonts
 ├── README-ASSETS/            # Documentation images
-└── krum_database (2).sql    # Database dump
 
 ```
 
